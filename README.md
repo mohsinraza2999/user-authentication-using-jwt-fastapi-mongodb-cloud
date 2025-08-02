@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
     <title>FastAPI Auth App</title>
     <style>
         body { font-family: Arial, sans-serif; line-height: 1.6; margin: 2rem; background: #f9f9f9; }
