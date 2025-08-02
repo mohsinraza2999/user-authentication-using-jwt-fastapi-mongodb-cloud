@@ -24,10 +24,13 @@ uvicorn app.main:app --reload</code>
 <h2 style="color:#007acc;">📁 Project Structure</h2>
 <ul>
   <li><code>app/main.py</code> – FastAPI app instance and routes</li>
-  <li><code>app/models.py</code> – Pydantic models</li>
-  <li><code>app/auth.py</code> – JWT utilities and authentication logic</li>
-  <li><code>app/database.py</code> – MongoDB Cloud connection</li>
-  <li><code>app/crud.py</code> – CRUD operations on users</li>
+  <li><code>app/api/routes_auth.py</code> – user registration and login operations</li>
+  <li><code>app/db/models.py</code> – Pydantic models</li>
+  <li><code>app/core/auth.py</code> – JWT utilities and authentication logic</li>
+  <li><code>app/core/config.py</code> – project name and secret keys</li>
+  <li><code>app/db/database.py</code> – MongoDB Cloud connection</li>
+  <li><code>app/api/routes_user.py</code> – token login and CRUD operations on users</li>
+  <li><code>app/schemas/schemas.py</code> – login token models</li>
 </ul>
 
 <h2 style="color:#007acc;">🔐 Authentication</h2>
