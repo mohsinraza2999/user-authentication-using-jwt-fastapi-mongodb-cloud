@@ -1,16 +1,4 @@
-# FastAPI Auth App
-
-A lightweight FastAPI project with JWT-based authentication and MongoDB Cloud.
-
-## Features
-
-- JWT login/register
-- Protected user routes
-- MongoDB Cloud
-
-## Getting Started
-
-```bash
+Bash
 pip install -r requirements.txt
 uvicorn app.main:app --reload
 
